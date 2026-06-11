@@ -3,7 +3,7 @@ const spaceData = {
     index: "01",
     title: "Panorama Hall",
     kicker: "Панорама · Dinner · Show",
-    image: "https://cloud7.virtual.ua/images/515498/",
+    image: "assets/panorama-hall.jpg",
     copy: "Головна сцена вечора: панорама Львова, живі виступи, вечірні софіти та столи для розмов, які не хочеться завершувати.",
     capacity: "до 80 гостей",
     format: "вечеря · події"
@@ -12,7 +12,7 @@ const spaceData = {
     index: "02",
     title: "Літня тераса",
     kicker: "Open air · Sunset · City view",
-    image: "https://cloud7.virtual.ua/images/517897/",
+    image: "assets/roof-day.jpg",
     copy: "Вечері просто неба, рожеві заходи сонця й відчуття, ніби все місто стало декорацією саме для вашого столика.",
     capacity: "до 200 гостей",
     format: "вечеря · вечірки"
@@ -21,7 +21,7 @@ const spaceData = {
     index: "03",
     title: "Купол",
     kicker: "Intimate · Nature · Skyline",
-    image: "https://cloud7.virtual.ua/images/520236/",
+    image: "assets/dome-tree.jpg",
     copy: "Камерний простір із деревом, що росте крізь поверхи, панорамними вікнами й особливо тихою атмосферою для близьких розмов.",
     capacity: "до 30 гостей",
     format: "побачення · вечеря"
@@ -30,7 +30,7 @@ const spaceData = {
     index: "04",
     title: "Vocal Bar Karaoke",
     kicker: "Karaoke · Dance · Night",
-    image: "https://cloud7.virtual.ua/images/518629/",
+    image: "assets/bar-stairs.jpg",
     copy: "Тропічний настрій, дзеркальна стеля, музика й караоке. Простір для компаній, які точно не планують завершувати вечір рано.",
     capacity: "до 60 гостей",
     format: "караоке · party"
@@ -39,7 +39,7 @@ const spaceData = {
     index: "05",
     title: "Бенкетний зал",
     kicker: "Wedding · Birthday · Event",
-    image: "https://cloud7.virtual.ua/images/517789/",
+    image: "assets/white-bar.jpg",
     copy: "Вишуканий зал для святкувань із розмахом: мармур, м’які крісла, багато зелені й виразна стеля як головний акцент події.",
     capacity: "до 100 гостей",
     format: "весілля · бенкет"
