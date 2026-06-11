@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080c12">
+  <meta name="description" content="CLOUD no.7 Panorama — ресторан, панорамна тераса, vocal bar та події на сьомому поверсі Львова.">
+  <title>CLOUD no.7 Panorama — Lviv / Level 7</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Italiana&amp;family=Manrope:wght@400;500;600&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="loader" aria-hidden="true">
+    <div class="loader__number">07</div>
+    <p>Going up</p>
+    <div class="loader__line"><i></i></div>
+  </div>
+
+  <header class="header" data-header>
+    <a class="logo" href="#top" aria-label="Cloud no.7, на початок">
+      <span>CLOUD</span>
+      <small>no.7 · panorama</small>
+    </a>
+    <nav class="nav" data-nav>
+      <a href="#mood">Твій вечір</a>
+      <a href="#spaces">Простори</a>
+      <a href="#menu">Меню</a>
+      <a href="#events">Події</a>
+      <a href="#contact">Контакти</a>
+    </nav>
+    <div class="header__actions">
+      <span class="floor-mark">LVIV · 7 FLOOR</span>
+      <button class="book-button" type="button" data-open-booking>Забронювати</button>
+      <button class="menu-button" type="button" aria-label="Відкрити меню" aria-expanded="false" data-menu-button>
+        <i></i><i></i>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="top">
+      <div class="hero__media">
+        <img src="https://cloud7.virtual.ua/images/517897/" alt="Панорамна тераса Cloud no.7 над Львовом">
+      </div>
+      <div class="hero__veil"></div>
+      <div class="hero__orbit" aria-hidden="true"><i></i></div>
+      <div class="hero__side">
+        <span>49.8383° N</span>
+        <span>24.0347° E</span>
+      </div>
+      <div class="hero__content">
+        <p class="kicker kicker--light">Restaurant · Panorama · Vocal Bar · Terrace</p>
+        <h1><span>LVIV</span><br>LEVEL <em>7</em></h1>
+        <div class="hero__intro">
+          <p>Місто внизу.<br>Емоції — вище.</p>
+          <button type="button" data-open-booking>
+            <span>Піднятися</span>
+            <i>↗</i>
+          </button>
+        </div>
+      </div>
+      <div class="hero__bottom">
+        <a href="https://maps.google.com/?q=площа+Соборна+14+Львів" target="_blank" rel="noreferrer">пл. Соборна, 14 · ТЦ «Роксолана»</a>
+        <a class="hero__scroll" href="#manifesto"><span>Scroll to discover</span><i></i></a>
+        <p>Щодня · 11:00 — 23:30</p>
+      </div>
+    </section>
+
+    <section class="manifesto section" id="manifesto">
+      <div class="manifesto__label reveal">
+        <span>01</span>
+        <p>Above the<br>ordinary</p>
+      </div>
+      <div class="manifesto__copy reveal">
+        <p class="kicker">Територія високих емоцій</p>
+        <h2>Не просто вечеря.<br><em>Ціле місто</em> у вас<br>перед очима.</h2>
+        <p class="manifesto__text">Панорама старого Львова, кухня з усього світу, авторські коктейлі, жива музика та п’ять просторів для різних версій вашого вечора.</p>
+      </div>
+      <div class="manifesto__visual reveal">
+        <div class="manifesto__image">
+          <img src="https://cloud7.virtual.ua/images/515498/" alt="Інтер'єр ресторану Cloud no.7" loading="lazy">
+        </div>
+        <div class="manifesto__stamp">
+          <span>7</span>
+          <p>поверх<br>над містом</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="mood" id="mood">
+      <div class="mood__heading section reveal">
+        <p class="kicker kicker--light">What is your mood tonight?</p>
+        <h2>Який сьогодні<br><em>твій вечір?</em></h2>
+      </div>
+      <div class="mood__stage">
+        <div class="mood__backgrounds" aria-hidden="true">
+          <img class="is-active" src="https://cloud7.virtual.ua/images/517897/" alt="" data-mood-image="date">
+          <img src="https://cloud7.virtual.ua/images/518629/" alt="" data-mood-image="party">
+          <img src="https://cloud7.virtual.ua/images/517789/" alt="" data-mood-image="celebration">
+          <img src="https://cloud7.virtual.ua/images/520236/" alt="" data-mood-image="skyline">
+        </div>
+        <div class="mood__overlay"></div>
+        <div class="mood__choices section">
+          <button class="mood-choice is-active" type="button" data-mood="date">
+            <span>01</span>
+            <strong>Побачення</strong>
+            <small>Купол · Panorama Hall</small>
+          </button>
+          <button class="mood-choice" type="button" data-mood="party">
+            <span>02</span>
+            <strong>Вечірка</strong>
+            <small>Vocal Bar · Show</small>
+          </button>
+          <button class="mood-choice" type="button" data-mood="celebration">
+            <span>03</span>
+            <strong>Святкування</strong>
+            <small>Бенкетний зал</small>
+          </button>
+          <button class="mood-choice" type="button" data-mood="skyline">
+            <span>04</span>
+            <strong>Панорама</strong>
+            <small>Літня тераса</small>
+          </button>
+        </div>
+        <div class="mood__result section">
+          <p data-mood-copy>Тихе світло, панорама вечірнього міста й стіл для двох.</p>
+          <button class="line-link line-link--light" type="button" data-open-booking>Забронювати цей вечір <span>↗</span></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="spaces section" id="spaces">
+      <div class="section-heading reveal">
+        <div>
+          <p class="kicker">Five spaces · one destination</p>
+          <h2>П’ять способів<br>бути <em>на висоті.</em></h2>
+        </div>
+        <p>Від камерної вечері до весілля на 200 гостей. Оберіть простір, який звучить у вашому ритмі.</p>
+      </div>
+
+      <div class="spaces__nav reveal" role="tablist" aria-label="Зали Cloud no.7">
+        <button class="is-active" type="button" role="tab" data-space-tab="panorama">Panorama Hall</button>
+        <button type="button" role="tab" data-space-tab="terrace">Літня тераса</button>
+        <button type="button" role="tab" data-space-tab="dome">Купол</button>
+        <button type="button" role="tab" data-space-tab="vocal">Vocal Bar</button>
+        <button type="button" role="tab" data-space-tab="banquet">Бенкетний</button>
+      </div>
+
+      <div class="space-view reveal">
+        <div class="space-view__media">
+          <img src="https://cloud7.virtual.ua/images/515498/" alt="Panorama Hall" data-space-image>
+          <span class="space-view__count"><b data-space-index>01</b> / 05</span>
+        </div>
+        <div class="space-view__content">
+          <p class="kicker" data-space-kicker>Панорама · Dinner · Show</p>
+          <h3 data-space-title>Panorama Hall</h3>
+          <p data-space-copy>Головна сцена вечора: панорама Львова, живі виступи, вечірні софіти та столи для розмов, які не хочеться завершувати.</p>
+          <div class="space-view__meta">
+            <span data-space-capacity>до 80 гостей</span>
+            <span data-space-format>вечеря · події</span>
+          </div>
+          <button class="line-link" type="button" data-open-booking>Обрати цей зал <span>↗</span></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu-section" id="menu">
+      <div class="menu-section__collage">
+        <figure class="menu-section__dish reveal">
+          <img src="https://static.tildacdn.one/tild3937-6438-4261-b939-373265666336/DSC06136_1.jpg" alt="Страва кухні Cloud no.7" loading="lazy">
+        </figure>
+        <figure class="menu-section__bar reveal">
+          <img src="https://cloud7.virtual.ua/images/518629/" alt="Бар Cloud no.7" loading="lazy">
+        </figure>
+        <div class="menu-section__word" aria-hidden="true">TASTE</div>
+      </div>
+      <div class="menu-section__content reveal">
+        <p class="kicker">Kitchen &amp; cocktail laboratory</p>
+        <h2>Смак, що<br>піднімає <em>вище.</em></h2>
+        <p>Європейська, азійська, українська та японська кухня зустрічаються в одному меню. У барі — преміальна винна карта, handmade-сиропи й авторські коктейлі.</p>
+        <div class="menu-section__facts">
+          <span><b>04</b> кухні світу</span>
+          <span><b>01</b> cocktail lab</span>
+        </div>
+        <div class="menu-section__links">
+          <a class="solid-button" href="https://cloudpanorama.choiceqr.com/" target="_blank" rel="noreferrer">Відкрити меню</a>
+          <a class="line-link" href="https://cloudpanorama.choiceqr.com/" target="_blank" rel="noreferrer">Барна карта <span>↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="events section" id="events">
+      <div class="events__heading reveal">
+        <div>
+          <p class="kicker">This week above Lviv</p>
+          <h2>Cloud<br><em>evenings.</em></h2>
+        </div>
+        <p>DJ-сети, live vocal та заходи сонця. Причина піднятися на сьомий поверх знайдеться завжди.</p>
+      </div>
+
+      <div class="events__list">
+        <article class="event-card reveal">
+          <div class="event-card__date"><strong>11</strong><span>червня<br>четвер</span></div>
+          <div class="event-card__title">
+            <p>Sunset session</p>
+            <h3>DJ Abfaer</h3>
+          </div>
+          <p class="event-card__description">Захід сонця й музичний старт довгого вікенду.</p>
+          <button type="button" data-open-booking aria-label="Забронювати на DJ Abfaer">↗</button>
+        </article>
+        <article class="event-card reveal">
+          <div class="event-card__date"><strong>12</strong><span>червня<br>п’ятниця</span></div>
+          <div class="event-card__title">
+            <p>Friday rhythms</p>
+            <h3>Mad Rush × Sofia Di</h3>
+          </div>
+          <p class="event-card__description">DJ-set та live vocal show над вечірнім Львовом.</p>
+          <button type="button" data-open-booking aria-label="Забронювати на Mad Rush та Sofia Di">↗</button>
+        </article>
+        <article class="event-card reveal">
+          <div class="event-card__date"><strong>13</strong><span>червня<br>субота</span></div>
+          <div class="event-card__title">
+            <p>Saturday high</p>
+            <h3>DJ Holiday × Live Show</h3>
+          </div>
+          <p class="event-card__description">Головна вечірка тижня з вокальним шоу.</p>
+          <button type="button" data-open-booking aria-label="Забронювати на DJ Holiday">↗</button>
+        </article>
+      </div>
+      <a class="line-link events__more" href="https://www.instagram.com/cloud.lviv/" target="_blank" rel="noreferrer">Більше подій в Instagram <span>↗</span></a>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="contact__media">
+        <img src="https://cloud7.virtual.ua/images/520236/" alt="Cloud no.7 над вечірнім Львовом" loading="lazy">
+      </div>
+      <div class="contact__veil"></div>
+      <div class="contact__content section reveal">
+        <p class="kicker kicker--light">See you on level seven</p>
+        <h2>Львів унизу.<br><em>Ви — у Cloud.</em></h2>
+        <div class="contact__grid">
+          <div><span>Адреса</span><p>площа Соборна, 14<br>ТЦ «Роксолана», 7 поверх</p></div>
+          <div><span>Резерв</span><a href="tel:+380981110007">+38 098 111 00 07</a></div>
+          <div><span>Графік</span><p>11:00 — 23:30<br>без вихідних</p></div>
+        </div>
+        <div class="contact__actions">
+          <button class="solid-button solid-button--light" type="button" data-open-booking>Забронювати столик</button>
+          <a class="line-link line-link--light" href="https://maps.google.com/?q=площа+Соборна+14+Львів" target="_blank" rel="noreferrer">Прокласти маршрут <span>↗</span></a>
+        </div>
+      </div>
+      <div class="contact__seven" aria-hidden="true">7</div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="logo logo--footer" href="#top">
+      <span>CLOUD</span>
+      <small>no.7 · panorama</small>
+    </a>
+    <p>Територія високих емоцій</p>
+    <div class="footer__socials">
+      <a href="https://www.instagram.com/cloud.lviv/" target="_blank" rel="noreferrer">Instagram</a>
+      <a href="https://www.facebook.com/cloud.lviv" target="_blank" rel="noreferrer">Facebook</a>
+    </div>
+    <div class="footer__bottom">
+      <span>© <b data-year></b> CLOUD no.7</span>
+      <span>Concept redesign · Lviv</span>
+      <button type="button" data-top>Back to top ↑</button>
+    </div>
+  </footer>
+
+  <div class="mobile-cta">
+    <a href="tel:+380981110007">Подзвонити</a>
+    <button type="button" data-open-booking>Забронювати</button>
+  </div>
+
+  <dialog class="booking" data-booking>
+    <button class="booking__close" type="button" aria-label="Закрити" data-close-booking>×</button>
+    <div class="booking__visual">
+      <img src="https://cloud7.virtual.ua/images/517897/" alt="">
+      <div>
+        <span>07</span>
+        <p>Your table<br>above Lviv</p>
+      </div>
+    </div>
+    <div class="booking__form-wrap">
+      <p class="kicker">Table reservation</p>
+      <h2>Ваш вечір<br><em>у Cloud.</em></h2>
+      <form data-booking-form>
+        <div class="form-row">
+          <label><span>Дата</span><input type="date" name="date" required></label>
+          <label><span>Час</span><select name="time"><option>18:00</option><option>19:00</option><option>20:00</option><option>21:00</option></select></label>
+        </div>
+        <div class="form-row">
+          <label><span>Ім’я</span><input type="text" name="name" placeholder="Ваше ім’я" required></label>
+          <label><span>Гостей</span><select name="guests"><option>2</option><option>3</option><option>4</option><option>5</option><option>6+</option></select></label>
+        </div>
+        <label><span>Телефон</span><input type="tel" name="phone" placeholder="+38 0__ ___ __ __" required></label>
+        <label><span>Простір</span><select name="space" data-booking-space><option>Допоможіть обрати</option><option>Panorama Hall</option><option>Літня тераса</option><option>Купол</option><option>Vocal Bar Karaoke</option><option>Бенкетний зал</option></select></label>
+        <button class="solid-button" type="submit">Надіслати запит</button>
+        <small>Демонстраційна форма концепту. Для бронювання зараз телефонуйте <a href="tel:+380981110007">+38 098 111 00 07</a>.</small>
+      </form>
+      <div class="booking__success" data-booking-success hidden>
+        <i>✓</i>
+        <h3>Майже на сьомому</h3>
+        <p>У готовому сайті заявка одразу надійде адміністратору. Зараз підтвердити столик можна телефоном.</p>
+        <a class="solid-button" href="tel:+380981110007">Подзвонити</a>
+      </div>
+    </div>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
